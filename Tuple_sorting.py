@@ -7,6 +7,8 @@ for i in range(n):
     for s in M:
         tup.append(int(s))
     My_tup.append(tuple(tup))
+if len(My_tup)==0:
+    print('Please enter a list of tuple ')
 print("Before Sorting",My_tup)
 for i in range(len(My_tup)):
     for j in range(i+1,len(My_tup)):
